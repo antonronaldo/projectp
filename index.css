@@ -1,0 +1,632 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: "border-box"
+  }
+
+#mainContainer{
+  background-color:#C4E1C5;
+  }
+
+body{
+  background-color:#274D3F;
+}
+
+ul{
+  list-style-type:none;
+  align-content: center;
+  margin-right:20px;
+}
+
+.navigationElementOne,.navigationElementTwo{
+  display:inline-block;
+}
+
+.navigationElementOne{
+  padding:20px 20px;
+}
+
+.navigationElementOne:hover{
+  background-color:#04AA6D;
+  color:white;
+}
+
+.navigationElementTwo{
+  border-radius:30px;
+  padding:12px 12px;
+  align-content:flex-end;
+  margin-left:30px;
+}
+
+.navigationElementTwo:hover{
+  background-color:#E7E9EB;
+}
+
+.quizMainImageElement{
+  height:400px;
+  width:400px;
+  position: relative;
+  top:30px;
+  right:30px;
+}
+
+.startQuizLink{
+  text-decoration: none;
+  display:inline-block;
+  height:30px;
+  padding:10px 50px 4px 50px; 
+  color:white;
+  background-color: #04AA6D;
+  font-family:Arial, Helvetica, sans-serif;
+  border:none;
+  font-size:20px;
+  border-radius:20px;
+  margin-top:40px;
+  margin-left:55px;
+}
+
+#mainContainer{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  height:740px;
+}
+
+h1{
+  font-family:serif;
+  font-weight: 100;
+}
+
+.aboutQuizContainer{
+  align-items: flex-start;
+}
+
+#header{
+   position:relative;
+   bottom:50px;
+   left:500px
+}
+
+.aboutQuizElement{
+  margin-bottom:20px;
+  font-size:72px;
+  line-height:90%;
+  letter-spacing:-0.01em;
+  font-weight:600px;
+  color:#2e3446;
+  font-family:Open Sans, serif;
+}
+
+.teacherUsageImageElement{
+  height:460px;
+  width:500px;
+  align-self:center;
+}
+
+article{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:#282A35;
+}
+
+.teacherUsageList{
+  font-family:Arial, Helvetica, sans-serif;
+  margin-bottom:10px;
+}
+
+#forTeachersUsageContainer{
+  align-content: center;
+  height:780px;
+}
+
+.aboutTeacherUsageElement{
+  margin-bottom:20px;
+  font-size:40px;
+  color:white;
+}
+
+.teacherUsageList{
+  color:white;
+}
+
+#inputSearchLogo{
+  height:20px;
+  width:20px;
+  position: relative;
+  top:20px;
+  right:40px;
+}
+
+.learnMorePageRoutingLink{
+  background-color: #04AA6D;
+  color:white;
+  border:none;
+  text-decoration: none;
+  height:60px;
+  width:160px;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:30px;
+  padding-right:30px;
+  border-radius:20px;
+  position: relative;
+  top:35px;
+}
+
+.pageRoutingLink{
+  background-color: #04AA6D;
+  height:60px;
+  width:100px;
+  border:none;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding-top:30px;
+  padding-right:20px;
+  padding-left:20px;
+}
+
+#aboutPage{
+  font-size:25px;
+  font-weight:400;
+  line-height:160%;
+  color:#04AA6D;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  left:40px;
+}
+
+.aboutQuizList{
+  margin-top:20px;
+  margin-left:40px;
+  list-style-type:square;
+  font-size:21px;
+  color:#2e3446;
+  position: relative;
+  left:40px;
+}
+
+.homePageRoutingLink{
+  background-color: #04AA6D;
+  height:26px;
+  padding-top:12px;
+  padding-bottom:9px;
+  padding-right:5px;
+  padding-left:14px;
+  width:75px;
+  border:none;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size:19px;
+  margin-top:60px;
+  border-radius:15px;
+}
+
+.nextButton{
+  background-color: #04AA6D;
+  color:white;
+  border:none;
+  height:50px;
+  width:85px;
+  font-size:16px;
+  margin-left:527px;
+  margin-top:60px;
+  border-radius:15px;
+}
+
+.PreviousButton{
+  background-color: #04AA6D;
+  color:white;
+  border:none;
+  height:50px;
+  width:85px;
+  border-radius:15px;
+  font-size:16px;
+  margin-top:60px;
+}
+
+#quizContainer{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  margin-top:65px;
+}
+
+#aboutquiz{
+  height:560px;
+  width:800px;
+  background-color:white;
+  padding:30px 0px 0px 60px;
+}
+
+input{
+  margin-left:10px;
+}
+
+.options{
+  background-color:#E7E9EB;
+  margin-bottom:3px;
+  padding-top:16px;
+  width:700px;
+  padding-bottom:16px;
+}
+
+.options:hover{
+  background-color:gray;
+}
+
+#aboutQuizpage{
+  margin-bottom:20px;
+  color:#2e3446;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#aboutWhichQuestion,label{
+  margin-bottom:20px;
+  color:#2e3446;
+}
+
+#question{
+  margin-bottom:15px;
+  color:#2e3446;
+}
+
+#learnMorePageContainer{
+  background-color:#20232B;
+  height:728px;
+}
+
+#aboutLearnMorePage{    
+   font-size:70px;
+   color:white;
+   text-align:center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   box-sizing: "border-box"
+}
+
+#LearningPagemainContainer{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+#aboutUsContainer{
+   background-color:#274D3F;
+    height:380px;
+    width:300px;
+    display:inline-block;
+    margin-right:20px;
+    padding-left:34px;
+    padding-right:20px;
+    padding-top:25px;
+    border:1px solid lightgreen;
+    border-radius:20px;
+    padding-bottom:15px;
+    margin-top:80px;
+}
+
+#usesContainer{
+  margin-top:80px;
+  background-color:#274D3F;
+  height:380px;
+  width:300px;
+  display:inline-block;
+  margin-right:20px;
+  padding-left:34px;
+  padding-right:20px;
+  padding-top:25px;
+  border:1px solid lightgreen;
+  border-radius:20px;
+  padding-bottom:20px;
+}
+
+hr{
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+#rulesContainer{
+  background-color:#274D3F;
+  height:420px;
+  width:300px;
+  display:inline-block;
+  margin-right:20px;
+  padding-left:34px;
+  padding-right:20px;
+  padding-top:25px;
+  border:1px solid lightgreen;
+  border-radius:20px;
+  padding-bottom:20px;
+  margin-top:50px;
+}
+
+.quizPageDetails{
+  color:white;
+  margin-top:13px;
+  margin-left:27px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.guidelinessHeading{
+   font-size:30px;
+   color:#04AA6D;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.aboutParagraphElement{
+  color:white;
+  font-size:18px;
+  margin-top:10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tickimageOne{
+    height:25px;
+    width:25px;
+    position:relative;
+    bottom:230px;
+    left:229px;
+}
+
+#tickimageTwo{
+   height:25px;
+   width:25px;
+   position:relative;
+   left:204px;
+   bottom:197px;
+}
+
+#tickimageThree{
+    height:25px;
+    width:25px;
+    position:relative;
+    left:180px;
+    bottom:161px;
+}
+
+#tickimageFour{
+    height:25px;
+    width:25px;
+    position:relative;
+    left:155px;
+    bottom:127px;
+}
+
+#tickimageFive{
+    height:25px;
+    width:25px;
+    position:relative;
+    left:130px;
+    bottom:93px;
+}
+
+#tickimageSix{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:105px;
+  bottom:58px;
+}
+
+#tickimageSeven{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:455px;
+  bottom:284px;
+}
+
+#tickimageEight{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:431px;
+  bottom:250px;
+}
+
+#tickimageNine{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:405px;
+  bottom:194px;
+}
+
+#tickimageTen{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:380px;
+  bottom:138px;
+}
+
+#tickimageEleven{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:355px;
+  bottom:102px;
+}
+
+#tickimageTwelve{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:330px;
+  bottom:69px;
+}
+
+#tickimageThirten{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:305px;
+  bottom:34px;
+}
+
+#tickimageFouten{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:657px;
+  bottom:278px;
+}
+
+#tickimageFiften{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:632px;
+  bottom:245px;
+}
+
+#tickimageSixeten{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:607px;
+  bottom:209px;
+}
+
+#tickimageSeventen{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:582px;
+  bottom:175px;
+}
+
+#tickimageEighteen{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:557px;
+  bottom:140px;
+}
+
+#tickimageNineten{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:531px;
+  bottom:105px;
+}
+
+#tickimageTwenty{
+  height:25px;
+  width:25px;
+  position:relative;
+  left:506px;
+  bottom:70px;
+}
+
+.homePageLink{
+  background-color: #04AA6D;
+  height:30px;
+  padding-top:17px;
+  padding-bottom:17px;
+  padding-left:23px;
+  padding-right:23px;
+  width:75px;
+  border:none;
+  text-decoration: none;
+  color: white;
+  font-size:19px;
+  margin-top:60px;
+  position:relative;
+  top:40px;
+  right:460px;
+  border-radius:24px;
+}
+
+label{
+  margin-left:10px;
+}
+
+.resultsPageRoutingLink{
+  background-color: #04AA6D;
+  font-size:19px;
+  height:100px;
+  color:white;
+  text-decoration:none;
+  padding-top:15px;
+  padding-bottom:15px;
+  margin-top:5px;
+  padding-left:16px;
+  padding-right:16px;
+  border-radius:13px;
+  margin-left:527px;
+}
+
+#resultContainer{
+  height:560px;
+  width:860px;
+  background-color:white;
+  margin-top:150px;
+  margin-left:328px;
+  margin-bottom:60px;
+}
+
+#quizResults{
+  text-align: center;
+  position:relative;
+  font-size:70x;
+  font-weight: 300;
+  top:60px;
+}
+
+#resultTickImage{
+  height:120px;
+  width:120px;
+  margin-top:100px;
+  margin-left:360px;
+}
+
+#pointsContainer{
+    background-color:lightgray;
+    height:100px;
+    width:130px;
+    position:relative;
+    left:600px;
+    bottom:84px;
+    padding-left:40px;
+    padding-right:20px;
+    padding-top:35px;
+    padding-bottom:px;
+
+}
+
+.resultList{
+    font-size:18px;
+    color:#20232B;
+}
+.results{
+    font-size:25px;
+    margin-top:20px;
+    margin-left:40px;
+    color: #04AA6D;
+}
+
+#resultHeading{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:gray;
+}
+
+#percentageContainer{
+  background-color:lightgray;
+  height:90px;
+  width:150px;
+  position:relative;
+  top:54px;
+  left:130px;
+  padding-left:50px;
+  padding-right:20px;
+  padding-top:30px;
+  padding-bottom:20px;
+}
+
